@@ -1,0 +1,74 @@
+
+/* Color principal del botón */
+.btn-primary {
+    background-color: hsl(232, 90%, 39%); /* Rojo vibrante, color típico de Claro */
+    border-color: hsl(259, 95%, 47%);
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: hsl(232, 90%, 39%); /* Un rojo más claro al pasar el ratón */
+    border-color: hsl(259, 95%, 47%);;
+    transform: translateY(-3px); /* Pequeño levantamiento */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
+}
+
+/* Estilo para las tarjetas del grid */
+.custom-card {
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+    transform: translateY(-5px); /* Efecto de "levantar" la tarjeta al pasar el ratón */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+}
+
+/* Estilo para el formulario de contacto */
+.custom-form {
+    background-color: hsl(232, 90%, 39%);; /* Fondo ligeramente gris para el formulario */
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-submit {
+    width: 100%; /* Botón de envío que ocupa todo el ancho */
+    font-size: 1.1rem;
+    padding: 10px 0;
+}
+
+/* Media Query para pantallas pequeñas (móviles) */
+@media (max-width: 576px) { /* Extra small devices (portrait phones, less than 576px) */
+    .navbar-brand h1 {
+        font-size: 1.5rem; /* Título más pequeño en móviles */
+    }
+
+    .custom-card {
+        background-color: hsl(232, 90%, 39%); /* Fondo diferente para tarjetas en móviles (ejemplo) */
+        border: 1px solid #ffcc80;
+    }
+
+    .btn-primary {
+        background-color: hsl(232, 90%, 39%); /* Color diferente para botones primarios en móviles */
+        border-color: hsl(259, 95%, 47%);;
+    }
+}
+
+/* Animación para el pie de página */
+.footer {
+    transition: background-color 0.5s ease;
+}
+
+.footer:hover {
+    background-color: #e9ecef; /* Ligeramente más oscuro al pasar el ratón */
+}
+
+.footer a {
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #007bff !important; /* Color de enlace diferente al pasar el ratón */
+}

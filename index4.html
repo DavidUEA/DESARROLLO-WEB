@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <h1 class="navbar-brand mb-0 h1">PACIFIC_TRAVEL</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#inicio">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicios">Nuestros Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mas-info">Más Información</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5" id="inicio">
+        <h2 class="text-center mb-4">Soluciones de Telecomunicaciones para Ti</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 custom-card">
+                    <img src="descarga (1).jpg" class="card-img-top card-img-top" alt="Icono">
+                    <div class="card-body">
+                        <h3 class="card-text">Viajes en familia</h3>
+                        <p class="card-text">Consulta y adquiere de manera sencilla. nuestros servicios a nivel del Ecuador.</p>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseFacturacion" aria-expanded="false" aria-controls="collapseFacturacion">
+                            Detalles del los servicios
+                        </button>
+                        <div class="collapse mt-3" id="collapseFacturacion">
+                            <div class="card card-body">
+                                Ofrecemos diversas opciones para tu comodidad, incluyendo diversas formas de nuestros servicios con hoteles.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 custom-card">
+                    <img src="descarga (2).jpg" class="card-img-top img-fluid" alt="Icono de Planes y Servicios">
+                    <div class="card-body">
+                        <h3 class="card-title">Nuestros Planes y Servicios</h3>
+                        <p class="card-text">Descubre la variedad de servicios que podemos ofrecer, nuestros servicios son a nivel nacional costa sierra y oriente.</p>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsePlanes" aria-expanded="false" aria-controls="collapsePlanes">
+                            Explorar nuestro
+                             
+                        </button>
+                        <div class="collapse mt-3" id="collapsePlanes">
+                            <div class="card card-body">
+                                <ul>
+                                <li>Costa</li>
+                                <li>Sierra</li>
+                                <li>Oriente</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 custom-card">
+                    <img src="Volkswagen-Crafter1-removebg-preview.png" class="card-img-top img-fluid" alt="Icono de Soporte Técnico">
+                    <div class="card-body">
+                        <h3 class="card-title">Nuestros vehiculos</h3>
+                        <p class="card-text">Recibe ayuda rápida y efectiva para cualquier inconveniente técnico. Estamos aquí para asistirte.</p>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseSoporte" aria-expanded="false" aria-controls="collapseSoporte">
+                            Tipo de vehiculos
+                        </button>
+                        <div class="collapse mt-3" id="collapseSoporte">
+                            <div class="card card-body">
+                                <ul>
+                                    <li>Volkswagen Crafter</li><img src="Volkswagen-Crafter1-removebg-preview.png" class="card-img-top img-fluid" alt="Icono de Soporte Técnico">
+                                    <li>Hyundai H1</li> <img src="descarga (3).jpg" class="card-img-top img-fluid" alt="Icono de Soporte Técnico">
+                                    <li>Mercedes-Benz Sprinter</li>
+                                    <li>Chevrolet NPR</li>
+                                    <li>Renault Master</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="container my-5" id="contacto">
+        <h2 class="text-center mb-4">Contáctanos</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <form class="p-4 border rounded shadow-sm custom-form">
+                    <div class="form-group">
+                        <label for="nombre">Nombres completos:</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Tu Nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="tu.correo@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="comentarios">Describenos el servicio que deseas:</label>
+                        <textarea class="form-control" id="comentarios" rows="5" placeholder="Escribe con cada detalle el servicio que deseas aquí..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">Solicitar cotización</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer py-4 text-center bg-light">
+        <div class="container">
+            <p> 2019 Pacif travel. siempre junto a ti en tus mejores momentos.</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#" class="text-muted">Seguridad</a></li>
+                <li class="list-inline-item"><a href="#" class="text-muted">Confianza</a></li>
+                <li class="list-inline-item"><a href="#" class="text-muted">aventura</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
