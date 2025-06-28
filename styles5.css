@@ -1,0 +1,40 @@
+
+body {
+    font-family: Arial, sans-serif;    
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.input-section {
+     margin-bottom: 20px;
+}
+
+input[type="url"] {
+    width: 300px;
+    padding: 8px;
+}
+
+button {
+     padding: 8px 12px;
+     margin-left: 5px;
+     cursor: pointer;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid transparent;
+    transition: transform 0.3s, border 0.3s;
+}
+
+.gallery img.selected {
+    border: 3px solid #007BFF;
+    transform: scale(1.05);
+}
