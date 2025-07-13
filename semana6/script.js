@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Función para validar el correo electrónico
     function validateEmail() {
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if (emailRegex.test(emailInput.value)) {
+        if (emailRegex.test(emailInput.value)) {1
             emailInput.classList.remove('invalid');
             emailInput.classList.add('valid');
             emailError.textContent = '';
