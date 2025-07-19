@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovación Digital Solutions</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OqnxZauYUhtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit-code.js" crossorigin="anonymous"></script> </head>
+<body>
+
+    <header class="bg-dark text-white py-3 sticky-top shadow-sm">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand fs-4 fw-bold" href="#">Innovación Digital</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#productos">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <section id="inicio" class="mb-5 text-center">
+            <h1 class="display-4 mb-4 fw-bold text-primary">Soluciones Digitales a tu Alcance</h1>
+            <p class="lead text-muted">Descubre la tecnología que impulsa tu futuro.</p>
+
+            <div id="heroCarousel" class="carousel slide carousel-fade shadow-lg rounded-3 overflow-hidden" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="descarga (4).jpg" class="d-block w-100 img-fluid" alt="Innovación y Diseño">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3 rounded">
+                            <h5>Diseño de Vanguardia</h5>
+                            <p>Explora nuestras soluciones estéticas y funcionales.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="descarga (5).jpg" class="d-block w-100 img-fluid" alt="Rendimiento Superior">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3 rounded">
+                            <h5>Rendimiento Inigualable</h5>
+                            <p>Optimiza tus operaciones con nuestra tecnología de punta.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="descarga (6).jpg" class="d-block w-100 img-fluid" alt="Soporte Profesional">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3 rounded">
+                            <h5>Soporte Dedicado 24/7</h5>
+                            <p>Siempre estamos aquí para ayudarte en cada paso.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </section>
+
+        <hr class="my-5">
+
+        <section id="productos" class="mb-5">
+            <h2 class="text-center mb-4 display-5 fw-bold text-secondary">Nuestro Catálogo de Productos</h2>
+            <div class="table-responsive shadow-sm rounded-3">
+                <table class="table table-hover table-bordered align-middle custom-product-table">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Categoría</th>
+                            <th scope="col">Precio</th>
+                            <th scope="col">Disponibilidad</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">001</th>
+                            <td>Plataforma de Análisis de Datos Pro</td>
+                            <td>Software</td>
+                            <td>$1,500.00</td>
+                            <td><span class="badge bg-success">En Stock</span></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">002</th>
+                            <td>Módulo de Seguridad Cifrado Avanzado</td>
+                            <td>Hardware</td>
+                            <td>$350.00</td>
+                            <td><span class="badge bg-success">En Stock</span></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">003</th>
+                            <td>Servicio de Consultoría IT (Hora)</td>
+                            <td>Servicios</td>
+                            <td>$120.00</td>
+                            <td><span class="badge bg-info text-dark">Bajo Demanda</span></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">004</th>
+                            <td>Kit de Desarrollo IoT Básico</td>
+                            <td>Hardware</td>
+                            <td>$280.00</td>
+                            <td><span class="badge bg-success">En Stock</span></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">005</th>
+                            <td>Licencia Anual de Ciberseguridad IA</td>
+                            <td>Software</td>
+                            <td>$999.00</td>
+                            <td><span class="badge bg-success">En Stock</span></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">006</th>
+                            <td>Sistema de Gestión de Clientes (CRM)</td>
+                            <td>Software</td>
+                            <td>$800.00</td>
+                            <td><span class="badge bg-success">En Stock</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <hr class="my-5">
+
+        <section id="contacto" class="mb-5">
+            <h2 class="text-center mb-4 display-5 fw-bold text-primary">Conéctate con Nosotros</h2>
+            <form id="contactForm" class="p-4 border rounded-3 shadow-sm bg-light" novalidate>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre Completo:</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                    <div class="invalid-feedback">
+                        Por favor, ingresa tu nombre.
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="correo" class="form-label">Correo Electrónico:</label>
+                    <input type="email" class="form-control" id="correo" name="correo" placeholder="tu.correo@ejemplo.com" required>
+                    <div class="invalid-feedback">
+                        Por favor, ingresa un correo electrónico válido.
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Tu Mensaje:</label>
+                    <textarea class="form-control" id="mensaje" name="mensaje" rows="6" placeholder="Cuéntanos cómo podemos ayudarte..." required></textarea>
+                    <div class="invalid-feedback">
+                        Por favor, escribe tu mensaje.
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg w-100">Enviar Mensaje</button>
+            </form>
+        </section>
+
+        <hr class="my-5">
+
+        <section class="text-center my-5 p-4 bg-light rounded-3 shadow-sm">
+            <h3 class="mb-4 text-secondary">¿Tienes una pregunta rápida?</h3>
+            <button id="alertButton" class="btn btn-outline-info btn-lg custom-alert-button">
+                Haz Clic Aquí
+            </button>
+        </section>
+
+    </main>
+
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <div class="container">
+            <p class="mb-2">&copy; 2025 Innovación Digital Solutions. Todos los derechos reservados.</p>
+            <p class="mb-2">Contáctanos: <a href="mailto:info@innovaciondigital.com" class="text-white text-decoration-none">info@innovaciondigital.com</a> | Tel: <a href="tel:+1234567890" class="text-white text-decoration-none">+1 (234) 567-890</a></p>
+            <div class="social-icons mt-3">
+                <a href="#" class="text-white mx-2 fs-4"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white mx-2 fs-4"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white mx-2 fs-4"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="text-white mx-2 fs-4"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4yFFtoNTIDrMzpTtmFZfJ8BfC0A4fD2fW4PzI4fP/gK+8/b" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX8xL" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
